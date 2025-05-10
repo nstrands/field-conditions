@@ -5,7 +5,7 @@
 // const TIDES_API_KEY = 'YOUR_TIDES_API_KEY'; // REMOVE
 
 // Replace with your actual Render backend URL or http://localhost:5000 for local testing
-const BACKEND_URL = 'hhttps://field-conditions-backend.onrender.com/'; // Or 'http://localhost:5000'
+const BACKEND_URL = 'https://field-conditions-backend.onrender.com/'; // Or 'http://localhost:5000'
 
 async function fetchData() {
     const lat = document.getElementById('lat').value;
